@@ -30,3 +30,11 @@ Route::get('/', function () {
 
     return view('home', ['spesa' => $spesa], ['persone' => $persone]);
 });
+
+Route::get('/features.blade.php', function () {
+    return view('features');
+});
+
+Route::get('/pricing.blade.php', function () {
+    return view('pricing');
+});
