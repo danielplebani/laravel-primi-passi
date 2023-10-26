@@ -24,7 +24,7 @@
                         <a class="nav-link" href="#">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pricing.blade.php">Pricing</a>
+                        <a class="nav-link" href="{{ route('pricing') }}">Pricing</a>
                     </li>
                 </ul>
             </div>

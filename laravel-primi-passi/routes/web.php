@@ -29,12 +29,12 @@ Route::get('/', function () {
     ];
 
     return view('home', ['spesa' => $spesa], ['persone' => $persone]);
-});
+})->name('home');
 
-Route::get('/features.blade.php', function () {
+Route::get('/features', function () {
     return view('features');
-});
+})->name('features');
 
-Route::get('/pricing.blade.php', function () {
+Route::get('/pricing', function () {
     return view('pricing');
-});
+})->name('pricing');

@@ -33,10 +33,10 @@ Creiamo più di una pagina e visualizziamo un header menu con i link di tutte le
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./features.blade.php">Features</a>
+                        <a class="nav-link" href=" {{ route('features') }} ">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pricing.blade.php">Pricing</a>
+                        <a class="nav-link" href="{{ route('pricing') }}">Pricing</a>
                     </li>
                 </ul>
             </div>
